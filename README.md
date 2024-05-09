@@ -88,7 +88,7 @@ The hybrid CNN-RNN model effectively combines Cloud Imagery data and Meteorologi
   - The final LSTM output is processed through a Dense layer.
 
 ## Integration and Output
-- **Concatenation**: Features from CNN and RNN are combined to leverage both Cloud Imagery data and Meteorological data.
+- **Concatenation**: Features from CNN and RNN are combined to leverage both Cloud Imagery thought vectors and Meteorological data thought vectors.
 - **Final Layers**: A Dense layer processes the concatenated features, leading to a softmax output layer that classifies weather conditions.
 
 ## Model Compilation

@@ -5,6 +5,7 @@
 # Introduction
 This project focuses on predicting lake effect precipitation using Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). It involves the use of meteorological variables and satellite cloud imagery.
 
+# Data Preprocessing
 ### 1. Data Preprocessing and Exploratory Data Analysis (EDA)
 - **Data Cleaning**: Features are renamed for clarity, date and time columns combined into a single column focused on UTC time, and missing or non-numerical values are handled efficiently.
 - **Feature Engineering**: Removed features with a high percentage of missing values and highly correlated features to reduce redundancy and improve model accuracy.
@@ -20,3 +21,20 @@ This project focuses on predicting lake effect precipitation using Convolutional
   - `les_data.csv` - Contains all processed features.
   - `meteorological_data.csv` - Dedicated to meteorological features for RNN processing.
   - `filtered_les_cld_imgs.csv` - Includes DateTime_UTC and lake_data_2D columns for CNN processing.
+
+# Visualizations
+### 1. Yearly and Monthly Precipitation Analysis
+- **Total Yearly Precipitation**: Plots the total precipitation for each year to observe trends over time.
+- **Aggregated Monthly Precipitation**: For each year, a detailed monthly precipitation plot shows the distribution and trends within the year.
+- **Monthly Observations Scatter Plot**: Provides a scatter plot for daily observations within each month, across all years, to visualize variability and outliers.
+
+### 2. Time Series Analysis
+- **Time Series Precipitation Plot**: A continuous plot showing the precipitation over time, highlighting any seasonal patterns or anomalies.
+
+### 3. Detailed Feature Relationships
+- **Pair Plots**: Visualize relationships between all features in the dataset to understand correlations and potential predictive relationships.
+- **Relationship Plots**: Specific plots between each feature and precipitation to highlight how different meteorological conditions may influence precipitation patterns.
+
+### 4. Correlation Analysis
+- **Autocorrelation Plot**: Analyzes the correlation of precipitation with its past values to identify persistence or seasonality up to 30 days.
+- **Partial Autocorrelation Plot**: Provides insights into direct relationships between precipitation on different days, controlling for the values at intervening days.

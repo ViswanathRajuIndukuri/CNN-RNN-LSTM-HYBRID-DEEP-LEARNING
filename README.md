@@ -9,7 +9,7 @@ This project focuses on predicting lake effect precipitation using Convolutional
 - **Data Cleaning**: Features are renamed for clarity, date and time columns combined into a single column focused on UTC time, and missing or non-numerical values are handled efficiently.
 - **Feature Engineering**: Removed features with a high percentage of missing values and highly correlated features to reduce redundancy and improve model accuracy.
 - **Temporal Data Handling**: Data is sorted chronologically.
-- Implements data imputation strategies and data type conversions to prepare the dataset for modeling.
+- **Data imputation**: Implemented data imputation strategies and data type conversions to prepare the dataset for modeling.
 
 ### 2. Image Analysis
 - **Satellite Image Processing**: Analyzed and processed satellite images, removing those with poor lighting or distortion, focusing on clear images available between 14:00 and 22:00 UTC.

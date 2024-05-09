@@ -7,20 +7,20 @@ In this project, I explore a hybrid deep learning model combining Convolutional 
 
 # Data Description
 
-## Satellite Data
+### Satellite Data
 
-### Source
+#### Source
 The satellite data primarily comes from geostationary satellites, specifically the GOES (Geostationary Operational Environmental Satellites). These satellites are positioned to provide a constant watch over the same geographic area, allowing for continuous monitoring of atmospheric conditions.
 
-### Content
+#### Content
 The satellite data includes high-resolution imagery. This imagery is instrumental in observing cloud formations over Lake Michigan. These details are essential for understanding and predicting weather patterns to lake effect precipitation.
 
-## Weather Station Data
+### Weather Station Data
 
-### Source
+#### Source
 This data is sourced from ground-based weather stations strategically located near the lakeshore of Lake Michigan. These stations are ideally placed to capture detailed local atmospheric conditions that satellite imagery might miss.
 
-### Content
+#### Content
 Meteorological Data from Weather Stations
 - **Temp (F)**: Air temperature in degrees Fahrenheit at the time of observation.
 - **RH (%)**: Relative humidity percentage, indicating the amount of moisture in the air.
@@ -36,17 +36,17 @@ Meteorological Data from Weather Stations
 - **Heat Index (F)**: An index that combines air temperature and relative humidity to determine an apparent temperature—how hot it feels.
 
 # 2. Data Preprocessing
-### 1. Data Preprocessing and Exploratory Data Analysis (EDA)
+#### 1. Data Preprocessing and Exploratory Data Analysis (EDA)
 - **Data Cleaning**: Features are renamed for clarity, date and time columns are combined into a single column focused on UTC time, and missing or non-numerical values are handled efficiently.
 - **Feature Engineering**: Removed features with a high percentage of missing values and highly correlated features to reduce redundancy and improve model accuracy.
 - **Temporal Data Handling**: Data is sorted chronologically.
 - **Data imputation**: Implemented data imputation strategies and data type conversions to prepare the dataset for modeling.
 
-### 2. Image Analysis
+#### 2. Image Analysis
 - **Satellite Image Processing**: Analyzed and processed satellite images, removing those with poor lighting or distortion, focusing on clear images available between 14:00 and 22:00 UTC.
 - **Data Filtration**: Filter image data based on sunlight availability and image clarity to enhance data quality for CNN modeling.
 
-### 3. Data Saving and Organization
+#### 3. Data Saving and Organization
 - **File Management**: Data is organized into different files tailored for specific parts of the analysis:
   - `les_data.csv` - Contains all processed features.
   - `meteorological_data.csv` - Dedicated to meteorological features for RNN processing.

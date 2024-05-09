@@ -68,3 +68,31 @@ Meteorological Data from Weather Stations
 ### 4. Correlation Analysis
 - **Autocorrelation Plot**: Analyzes the correlation of precipitation with its past values to identify persistence or seasonality up to 30 days.
 - **Partial Autocorrelation Plot**: Provides insights into direct relationships between precipitation on different days, controlling for the values at intervening days.
+
+# 4. Hybrid Model Architecture
+
+The hybrid CNN-RNN model effectively combines Cloud Imagery data and Meteorological data. The model architecture is detailed below:
+
+## CNN for Cloud Imagery
+- **Input**: Processes sequences of cloud images, each sequence shaped as (9, 64, 64, 1) which is of 9 hrs of daytime images.
+- **Layers**:
+  - Conv3D layers extract spatial-temporal features.
+  - BatchNormalization and MaxPooling3D layers enhance and reduce feature dimensions.
+  - A Flatten layer followed by a Dense layer finalizes the CNN feature extraction.
+
+## RNN for Meteorological Data
+- **Input**: Handles time-series meteorological data shaped as (7, 7) which is 7 days of sequence.
+- **Layers**:
+  - Multiple LSTM layers learn temporal patterns with increasing depth and complexity.
+  - Each LSTM layer is accompanied by BatchNormalization and Dropout to improve learning and reduce overfitting.
+  - The final LSTM output is processed through a Dense layer.
+
+## Integration and Output
+- **Concatenation**: Features from CNN and RNN are combined to leverage both Cloud Imagery data and Meteorological data.
+- **Final Layers**: A Dense layer processes the concatenated features, leading to a softmax output layer that classifies weather conditions.
+
+## Model Compilation
+- Uses Adam optimizer and categorical crossentropy loss, focusing on multi-class classification accuracy.
+
+This architecture enables the model to robustly predict weather conditions by analyzing both the visual and temporal data, making it highly effective for comprehensive weather analysis.
+

@@ -1,6 +1,6 @@
 # Lake Effect Precipitation Prediction
 
-# CNN & RNN-LSTM Hybrid Deep Learning Model
+# Hybrid CNN & RNN-LSTM Deep Learning Model
 
 # Introduction
 In this project, I've developed a hybrid deep learning model combining Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) to predict precipitation whether it will be No Rain, Light Rain, Moderate Rain and Heavy Rain for One, Two, and Three days in advance. This advanced model architecture leverages both sequential cloud images and meteorological data to enhance predictive performance.

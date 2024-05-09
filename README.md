@@ -94,7 +94,7 @@ The hybrid CNN-RNN model effectively combines Cloud Imagery data and Meteorologi
 ## Model Compilation
 - Uses Adam optimizer and categorical crossentropy loss, focusing on multi-class classification accuracy.
 
-This architecture enables the model to robustly predict weather conditions by analyzing both the visual and temporal data, making it highly effective for comprehensive weather analysis.
+This architecture enables the model to robustly predict weather conditions by analyzing both the Cloud Imagery and Meteorological data, making it highly effective for comprehensive weather analysis.
 
 ## Conclusion
 

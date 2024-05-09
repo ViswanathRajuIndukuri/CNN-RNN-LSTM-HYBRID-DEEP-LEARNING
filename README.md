@@ -1,1 +1,3 @@
-# CNN-RNN-LSTM-HYBRID-DEEP-LEARNING
+# Lake Effect Precipitation Prediction
+
+# CNN & RNN-LSTM HYBRID DEEP LEARNING MODEL

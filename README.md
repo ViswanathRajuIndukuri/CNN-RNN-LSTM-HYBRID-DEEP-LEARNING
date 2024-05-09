@@ -24,7 +24,7 @@ The weather station data includes comprehensive records of various atmospheric p
 - **Humidity**: Moisture content in the air, a critical factor in precipitation formation.
 - **Wind Speed and Direction**: These factors help in predicting the movement and development of weather systems across the lake.
 - **Atmospheric Pressure**: Changes in pressure can indicate incoming systems or weather changes.
-- **Precipitation Amounts**: Direct records of rainfall or snowfall, essential for historical data analysis and model training.
+- **Precipitation Amounts**: Direct records of rainfall, essential for historical data analysis and model training.
 
 # 2. Data Preprocessing
 ### 1. Data Preprocessing and Exploratory Data Analysis (EDA)

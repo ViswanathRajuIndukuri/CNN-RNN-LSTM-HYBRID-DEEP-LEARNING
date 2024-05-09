@@ -13,7 +13,7 @@ In this project, I explore a hybrid deep learning model combining Convolutional 
 The satellite data primarily comes from geostationary satellites, specifically the GOES (Geostationary Operational Environmental Satellites). These satellites are positioned to provide a constant watch over the same geographic area, allowing for continuous monitoring of atmospheric conditions.
 
 ### Content
-The satellite data includes high-resolution imagery crucial for meteorological analysis. This imagery is instrumental in observing cloud formations over Lake Michigan. These details are essential for understanding and predicting weather patterns to lake effect precipitation.
+The satellite data includes high-resolution imagery. This imagery is instrumental in observing cloud formations over Lake Michigan. These details are essential for understanding and predicting weather patterns to lake effect precipitation.
 
 ## Weather Station Data
 

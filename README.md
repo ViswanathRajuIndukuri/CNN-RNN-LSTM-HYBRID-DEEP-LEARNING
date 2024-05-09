@@ -5,7 +5,7 @@
 # Introduction
 In this project, I explore a hybrid deep learning model combining Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) to predict lake effect precipitation One, Two, and Three days in advance. This advanced model architecture leverages both image and sequential data to enhance predictive performance.
 
-# Data Description
+# 1. Data Description
 ## Satellite Data
 
 ### Source
@@ -26,7 +26,7 @@ The weather station data includes comprehensive records of various atmospheric p
 - **Atmospheric Pressure**: Changes in pressure can indicate incoming systems or weather changes.
 - **Precipitation Amounts**: Direct records of rainfall or snowfall, essential for historical data analysis and model training.
 
-# Data Preprocessing
+# 2. Data Preprocessing
 ### 1. Data Preprocessing and Exploratory Data Analysis (EDA)
 - **Data Cleaning**: Features are renamed for clarity, date and time columns combined into a single column focused on UTC time, and missing or non-numerical values are handled efficiently.
 - **Feature Engineering**: Removed features with a high percentage of missing values and highly correlated features to reduce redundancy and improve model accuracy.
@@ -43,7 +43,7 @@ The weather station data includes comprehensive records of various atmospheric p
   - `meteorological_data.csv` - Dedicated to meteorological features for RNN processing.
   - `filtered_les_cld_imgs.csv` - Includes DateTime_UTC and lake_data_2D columns for CNN processing.
 
-# Visualizations
+# 3. Visualizations
 ### 1. Yearly and Monthly Precipitation Analysis
 - **Total Yearly Precipitation**: Plots the total precipitation for each year to observe trends over time.
 - **Aggregated Monthly Precipitation**: For each year, a detailed monthly precipitation plot shows the distribution and trends within the year.

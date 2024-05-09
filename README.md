@@ -53,19 +53,19 @@ Meteorological Data from Weather Stations
   - `filtered_les_cld_imgs.csv` - Includes DateTime_UTC and lake_data_2D columns for CNN processing.
 
 # 3. Visualizations
-### 1. Yearly and Monthly Precipitation Analysis
+#### 1. Yearly and Monthly Precipitation Analysis
 - **Total Yearly Precipitation**: Plots the total precipitation for each year to observe trends over time.
 - **Aggregated Monthly Precipitation**: For each year, a detailed monthly precipitation plot shows the distribution and trends within the year.
 - **Monthly Observations Scatter Plot**: Provides a scatter plot for daily observations within each month, across all years, to visualize variability and outliers.
 
-### 2. Time Series Analysis
+#### 2. Time Series Analysis
 - **Time Series Precipitation Plot**: A continuous plot showing the precipitation over time, highlighting any seasonal patterns or anomalies.
 
-### 3. Detailed Feature Relationships
+#### 3. Detailed Feature Relationships
 - **Pair Plots**: Visualize relationships between all features in the dataset to understand correlations and potential predictive relationships.
 - **Relationship Plots**: Specific plots between each feature and precipitation to highlight how different meteorological conditions may influence precipitation patterns.
 
-### 4. Correlation Analysis
+#### 4. Correlation Analysis
 - **Autocorrelation Plot**: Analyzes the correlation of precipitation with its past values to identify persistence or seasonality up to 30 days.
 - **Partial Autocorrelation Plot**: Provides insights into direct relationships between precipitation on different days, controlling for the values at intervening days.
 

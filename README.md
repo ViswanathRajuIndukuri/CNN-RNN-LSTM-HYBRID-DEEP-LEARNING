@@ -9,14 +9,16 @@ In this project, I explore a hybrid deep learning model combining Convolutional 
 
 ### Satellite Data
 
-#### Source: The satellite data primarily comes from geostationary satellites, specifically the GOES (Geostationary Operational Environmental Satellites). These satellites are positioned to provide a constant watch over the same geographic area, allowing for continuous monitoring of atmospheric conditions.
+#### Source:
+The satellite data primarily comes from geostationary satellites, specifically the GOES (Geostationary Operational Environmental Satellites). These satellites are positioned to provide a constant watch over the same geographic area, allowing for continuous monitoring of atmospheric conditions.
 
 #### Content:
 The satellite data includes high-resolution imagery. This imagery is instrumental in observing cloud formations over Lake Michigan. These details are essential for understanding and predicting weather patterns to lake effect precipitation.
 
 ### Weather Station Data
 
-#### Source: This data is sourced from ground-based weather stations strategically located near the lakeshore of Lake Michigan. These stations are ideally placed to capture detailed local atmospheric conditions that satellite imagery might miss.
+#### Source:
+This data is sourced from ground-based weather stations strategically located near the lakeshore of Lake Michigan. These stations are ideally placed to capture detailed local atmospheric conditions that satellite imagery might miss.
 
 #### Content:
 Meteorological Data from Weather Stations

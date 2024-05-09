@@ -6,7 +6,7 @@
 In this project, I explore a hybrid deep learning model combining Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) to predict lake effect precipitation One, Two, and Three days in advance. This advanced model architecture leverages both image and sequential data to enhance predictive performance.
 
 # 1. Data Description
-## ~Satellite Data
+## Satellite Data
 
 ### Source
 The satellite data primarily comes from geostationary satellites, specifically the GOES (Geostationary Operational Environmental Satellites). These satellites are positioned to provide a constant watch over the same geographic area, allowing for continuous monitoring of atmospheric conditions.

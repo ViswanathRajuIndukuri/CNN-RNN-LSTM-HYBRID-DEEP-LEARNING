@@ -3,7 +3,7 @@
 # CNN & RNN-LSTM HYBRID DEEP LEARNING MODEL
 
 # Introduction
-This project focuses on predicting lake effect precipitation using Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). It involves the use of meteorological variables and satellite cloud imagery.
+In this project, I explore a hybrid deep learning model combining Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) to predict lake effect precipitation One, Two, and Three days in advance. This advanced model architecture leverages both image and sequential data to enhance predictive performance.
 
 # Data Preprocessing
 ### 1. Data Preprocessing and Exploratory Data Analysis (EDA)
